@@ -90,7 +90,7 @@ To address this, you can implement an **𝛆-greedy algorithm**. This algorithm 
 
 Furthermore, the value of epsilon is purposely decayed over time, so that the agent favors exploration during its initial interactions with the environment, but increasingly favors exploitation as it gains more experience. The starting and ending values for epsilon, and the rate at which it decays are three hyper-parameters that are later tuned.
 
-You can find the 𝛆-greedy logic implemented as part of the `agent.act()` method in the file **`agent.py`**.
+You can find the 𝛆-greedy logic implemented as part of the `agent.act()` method in the file **`dqn_agent.py`**.
 
 #### Deep Q-Network (DQN)
 With Deep Q-Learning, a deep neural network is used to approximate the Q-function. Given a network `F`, finding an optimal policy is a matter of finding the best weights `w` such that `F(s,a,w) ≈ Q(s,a)`.
