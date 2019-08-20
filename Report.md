@@ -131,7 +131,11 @@ The best result (DQN) from Step 4 was an agent able to solve the environment ***
 
 <img src="assets/p1_navigation-Final-Average-Score.png" width="50%" align="top-left" alt="" title="Best Agent Graph" />
 
-In that previous step, note that we saved the agent in the file **`weights/checkpoint.pth`**.
+##### &nbsp;
+
+## ==Saved Model Weights==
+
+In that previous step (#4), note that we saved the model weights of the successful agent in the file **`weights/checkpoint.pth`**.
 
 Loading the weights from that checkpoint and running it for 25 episodes produced the following graph.
 
