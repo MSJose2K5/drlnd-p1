@@ -140,7 +140,7 @@ Loading the weights from that checkpoint and running it for 25 episodes produced
 ##### &nbsp;
 
 ## ==Ideas for Future Work==
-1. Do **more hyper-parameter tuning** on the current DQN agent; perhaps we might be able to solve the problem in less than 150 episodes.
+1. Do **more hyper-parameter tuning** on the current DQN agent; perhaps we might be able to solve the environment in less than 150 episodes.
 2. Try **Double DQN**. Deep Q-Learning tends to overestimate action values. **Double Q-Learning** has been shown to work well in practice to help with this.
 3. Try **Prioritized Experience Replay**. Deep Q-Learning samples experience transitions uniformly from a replay memory. **Prioritized experienced replay** is based on the idea that the agent can learn more effectively from some transitions than from others, and the more important transitions should be sampled with higher probability. 
 4. Try **Dueling DQN**. Currently, in order to determine which states are (or are not) valuable, we have to estimate the corresponding action values for each action. However, by replacing the traditional Deep Q-Network (DQN) architecture with a **dueling architecture**, we can assess the value of each state, without having to learn the effect of each action.
