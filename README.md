@@ -100,6 +100,8 @@ The neural network architecture used for this project can be found in the file *
 ### 5. Test the saved agent
 The best result (DQN) from Step 4 was an agent able to solve the environment in less than 175 episodes.
 
+The hyper-parameters used were as follows: n_episodes=1000, **eps_start=1.0, eps_end=0.02, eps_decay=0.95**.
+
 <img src="assets/p1_navigation-Final-Average-Score.png" width="50%" align="top-left" alt="" title="Best Agent Graph" />
 
 In that previous step, note that we saved the agent in the file **`weights/checkpoint.pth`**.
