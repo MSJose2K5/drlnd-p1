@@ -97,6 +97,8 @@ With Deep Q-Learning, a deep neural network is used to approximate the Q-functio
 
 The neural network architecture used for this project can be found in the file **`model.py`**. The network contains three fully-connected layers with 64, 64, and 4 nodes respectively.
 
+**NOTE**: The files **`dqn_agent.py`** and **`model.py`** were taken *verbatim* from the Deep Q-Learning Coding Exercise in **Part 2, Lesson 2. Deep Q-Networks.**
+
 ### 5. Test the saved agent
 The best result (DQN) from Step 4 was an agent able to solve the environment in less than 175 episodes.
 
